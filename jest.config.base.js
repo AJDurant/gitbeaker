@@ -6,8 +6,7 @@ module.exports = {
   ...tsjPreset,
 
   testEnvironment: 'node',
-  testRegex: 'test\\/.*\\.ts$',
-  testMatch: null,
+  testMatch: ['**/*.ts'],
   testURL: 'http://localhost/',
   testTimeout: 120000,
 
