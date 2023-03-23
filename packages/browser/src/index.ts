@@ -54,6 +54,7 @@ export const {
   MergeRequestAwardEmojis,
   MergeRequestDiscussions,
   MergeRequestNotes,
+  MergeTrains,
   Packages,
   PackageRegistry,
   Pipelines,

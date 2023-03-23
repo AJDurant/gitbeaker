@@ -54,6 +54,11 @@ export {
   MergeRequestSchema,
 } from './MergeRequests';
 export {
+  MergeTrainOptions,
+  AddMergeTrainOptions,
+  MergeTrainSchema,
+} from './MergeTrains';
+export {
   ProjectLevelMergeRequestApprovalSchema,
   ApprovedByEntity,
   MergeRequestLevelMergeRequestApprovalSchema,

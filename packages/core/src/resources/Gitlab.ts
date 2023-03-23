@@ -43,6 +43,7 @@ import { MergeRequestApprovals } from './MergeRequestApprovals';
 import { MergeRequestAwardEmojis } from './MergeRequestAwardEmojis';
 import { MergeRequestDiscussions } from './MergeRequestDiscussions';
 import { MergeRequestNotes } from './MergeRequestNotes';
+import { MergeTrains } from './MergeTrains';
 import { Packages } from './Packages';
 import { PackageRegistry } from './PackageRegistry';
 import { Pipelines } from './Pipelines';
@@ -145,6 +146,7 @@ type BundledService<C extends boolean = false> = {
   MergeRequestAwardEmojis: MergeRequestAwardEmojis<C>;
   MergeRequestDiscussions: MergeRequestDiscussions<C>;
   MergeRequestNotes: MergeRequestNotes<C>;
+  MergeTrains: MergeTrains<C>
   Packages: Packages<C>;
   PackageRegistry: PackageRegistry<C>;
   Pipelines: Pipelines<C>;
@@ -245,6 +247,7 @@ const resources = {
   MergeRequestAwardEmojis,
   MergeRequestDiscussions,
   MergeRequestNotes,
+  MergeTrains,
   Packages,
   PackageRegistry,
   Pipelines,

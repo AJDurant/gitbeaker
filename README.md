@@ -244,6 +244,7 @@ MergeRequestApprovals
 MergeRequestAwardEmojis
 MergeRequestDiscussions
 MergeRequestNotes
+MergeTrains
 Packages
 PackageRegistry
 Pipelines
